@@ -1,0 +1,155 @@
+body{
+    background-color: #333;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.svgLogin{
+    position: absolute;
+    left: 90px;
+    top: -90px;
+    width: 300px;
+}
+.containerSvg{
+    background-color: #667cfc;
+    position: absolute;
+    border-radius: 600px;
+    right: -280px;
+    top: 250px;
+    width: 700px;
+    height: 700px;
+   
+}
+.container{
+    background-color: #667cfc;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    margin-left: 35px;
+    border-radius: 8px;
+    width: 500px;
+    height: 550px;    
+}
+h1{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.containerLogin{
+    background-color: #555;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+#emailLogin{
+    background-color: rgba(255, 255, 255, 0.753);
+    position: absolute;
+    top: 110px;
+    left: 70px;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 25px;
+    cursor: pointer;
+}
+#PassWord{
+    background-color: rgba(255, 255, 255, 0.753);
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    width: 60%;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    margin-bottom: 10px;
+    height: 25px;
+    cursor: pointer;
+}
+.Button{
+    background-color: rgba(255, 255, 255, 0.753);
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    width: 60%;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    margin-bottom: 10px;
+    height: 25px;
+    cursor: pointer;
+    transition: background-color 500ms;
+}
+.Button:hover{
+    background-color: #ffffffe3;
+}
+p{
+    font-family: 'Mukta', sans-serif;
+    top: -15px;
+    left: 90px;
+    color: rgba(0, 0, 0, 0.705);
+    position: absolute;
+    font-size: 20px;
+}
+.info{
+    position: absolute;
+    left: 45px;
+    font-size: 20px;
+    top: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Mukta', sans-serif;
+}
+.Cadastro{
+    background-color: rgba(255, 255, 255, 0.753);
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    width: 110px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    margin-bottom: 10px;
+    height: 25px;
+    cursor: pointer;
+    transition: background-color 500ms;
+}
+.Cadastro:hover{
+    background-color: #ffffffe3;
+}
+#cadastre-se{
+    font-size: 10px;
+    position: absolute;
+    left: 15px;
+    top: 1px;
+}
+.Forget{
+    background-color: rgba(255, 255, 255, 0.753);
+    position: absolute;
+    top: 350px;
+    left: 260px;
+    width: 110px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    margin-bottom: 10px;
+    height: 25px;
+    cursor: pointer;
+    transition: background-color 500ms;
+}
+.Forget:hover{
+    background-color: #ffffffe3;
+}
+#Forgett{
+    font-size: 10px;
+    position: absolute;
+    left: 5px;
+    top: 1px;
+}
