@@ -43,10 +43,10 @@ h1{
     height: 400px;
     border-radius: 5px;
 }
-#emailLogin{
+#Fname{
     background-color: rgba(255, 255, 255, 0.753);
     position: absolute;
-    top: 110px;
+    top: 60px;
     left: 70px;
     width: 60%;
     box-sizing: border-box;
@@ -57,10 +57,32 @@ h1{
     height: 25px;
     cursor: pointer;
 }
-#PassWord{
+#Password{
     background-color: rgba(255, 255, 255, 0.753);
     position: absolute;
-    top: 170px;
+    top: 185px;
+    left: 70px;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    height: 25px;
+    cursor: pointer;
+}
+#res{
+    position: absolute;
+    top: 210px;
+    left: 80px;
+    color: rgb(226, 6, 6);
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+}
+#Cademail{
+    background-color: rgba(255, 255, 255, 0.753);
+    position: absolute;
+    top: 120px;
     left: 70px;
     width: 60%;
     border-radius: 3px;
@@ -74,7 +96,7 @@ h1{
 .Button{
     background-color: rgba(255, 255, 255, 0.753);
     position: absolute;
-    top: 250px;
+    top: 260px;
     left: 70px;
     width: 60%;
     border-radius: 3px;
@@ -92,7 +114,7 @@ h1{
 p{
     font-family: 'Mukta', sans-serif;
     top: -15px;
-    left: 90px;
+    left: 76px;
     color: rgba(0, 0, 0, 0.705);
     position: absolute;
     font-size: 20px;
@@ -127,29 +149,5 @@ p{
     font-size: 10px;
     position: absolute;
     left: 15px;
-    top: 1px;
-}
-.Forget{
-    background-color: rgba(255, 255, 255, 0.753);
-    position: absolute;
-    top: 350px;
-    left: 260px;
-    width: 110px;
-    border-radius: 3px;
-    box-sizing: border-box;
-    padding: 20px;
-    border: none;
-    margin-bottom: 10px;
-    height: 25px;
-    cursor: pointer;
-    transition: background-color 500ms;
-}
-.Forget:hover{
-    background-color: #ffffffe3;
-}
-#Forgett{
-    font-size: 10px;
-    position: absolute;
-    left: 5px;
     top: 1px;
 }
